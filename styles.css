@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#states-list {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#states-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#states-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#states-list li:last-child {
+    border-bottom: none;
+}
